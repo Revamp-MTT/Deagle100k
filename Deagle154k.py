@@ -80,7 +80,7 @@ while True:
         white.sendto(random, (ip, port))
         sent = sent + 1
         port = port + 1
-        while True:
+while True:
     sent = 0
     for random in range(1, 65534):
         white.sendto(random, (ip, port))
